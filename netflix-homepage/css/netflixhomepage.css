@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.background-img{
+    background-image: url(../assets/bg.jpg);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(16, 14, 14, 0.799);
+    width: 100%;
+    height: 100%;
+}
+
+.netflix-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+.netflixmain-heading{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.netflixsub-heading{
+    font-size: 30px;
+    margin-bottom: 45px;
+    color: white;
+}
+
+.netflix-button{
+    background-color: rgb(233, 74, 74);
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 32px;
+}
+.netflix-button:hover{
+    background-color:rgb(255, 0, 0) ;
+    
+}

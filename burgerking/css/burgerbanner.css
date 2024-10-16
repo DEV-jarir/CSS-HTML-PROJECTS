@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-color: rgb(27, 184, 126) ;
+    background-position: center;
+    background-size:cover;
+}
+
+.text-1{
+  color: aliceblue;
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  padding: 100px 0px 0px 450px;
+  
+}
+
+.sub-text{
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+}
+
+.text-2{
+ 
+  font-family: "Agbalumo", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 70px;
+  color: rgb(224, 226, 222);
+  padding: 20px 0px 0px 750px;
+  position: relative;
+  bottom: 120px;
+}
+
+.burger-img{
+    padding-left: 500px;
+    position: relative;
+    bottom: 180px;
+}
+
+.quality{
+    font-family: "Agbalumo", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(28, 227, 95) ;
+    background-color: rgb(224, 234, 216);
+    width: 140px;
+    height: 140px;
+    border: 1.5px solid black;
+    border-radius:100px;
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+    
+   
+}
+.text-4{
+   position: relative;
+   top: 20px;
+   text-align: center;
+}
+.logo1{
+    position: relative;
+    padding-left:950px;
+    bottom: 520px;
+}
+.lorem{
+    color:aliceblue;
+    font-size:10px ;
+    position: relative;
+    bottom: 520px;
+    padding-left: 380px;
+   
+}
+
+.lorem-2{
+    font-size:10px ;
+    position: relative;
+    bottom:520px ;
+    padding-left:380px ;
+    color: aliceblue;
+}
+.lorem-3{
+    font-size:10px ;
+    position: relative;
+    bottom:540px ;
+    padding-left:380px ;
+    color: aliceblue;
+}

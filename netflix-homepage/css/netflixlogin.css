@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.background{
+    background-image:url(../assets/bg.jpg) ;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(12, 12, 12, 0.5);
+}
+.netflix-logo{
+    position: absolute;
+    margin:30px 0px 0px 230px;
+}
+.box{
+    width: 400px;
+    height: 580px;
+    border: 1px solid black;
+    background-color:rgba(12, 12, 12, 0.5);
+    position: relative;
+    top: 90px;
+    right: 0;
+    bottom: 0;
+    left: 580px;
+    padding: 30px 40px 30px 50px;
+    
+}
+.heading{
+    color: aliceblue;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.bar-1{
+    height: 40px;
+    width: 300px;
+    color: grey;
+    border:1.5px solid white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:rgba(12, 12, 12, 0.5);
+}
+
+.bar-2{
+    height: 40px;
+    width: 300px;
+    color: grey;
+    border:1.5px solid white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background-color:rgba(12, 12, 12, 0.5);
+}
+
+.button{
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    background-color: #c11119;
+    margin-bottom: 30px;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-2{
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid rgb(11, 11, 11);
+    border-radius: 6px;
+    text-align: center;
+    color: rgb(249, 239, 239);
+    background-color: #3a3434;
+    margin-bottom: 30px;
+}
+
+.ch-box{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.link-1{
+    color: #bcb0b0;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    top:20px;
+
+}
+.link-2{
+    color: #f1ecec;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    top:20px;
+
+}
+
+.information{
+    color:#bcb0b0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    top:40px;
+    font-size: 14px;
+
+}
+
